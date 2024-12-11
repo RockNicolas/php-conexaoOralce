@@ -1,9 +1,9 @@
 <?php
 class Conexao
 {
-    private $db = "oci:dbname=//192.168.1.89:1521/tasyhml";
-    private $user = "NICOLAS_ROCK";
-    private $pass = "ywJeLRIfd3mL";
+    private $db = "";
+    private $user = "";
+    private $pass = "";
     private ?PDO $base = null;
 
     public function Conectar(): ?PDO
